@@ -5,11 +5,11 @@ Simulando um banco local e criando as principais requisições que uma API deve 
 - npm install
 - npm start
 
-Servidor rodando em http://localhost:21262
+# GET
 
-- GET
+- http://localhost:21262
 
-- POST
+# POST
 
 - http://localhost:21262/add
 
@@ -20,9 +20,10 @@ Servidor rodando em http://localhost:21262
     }
 }
 
-- DELETE
+# DELETE
 
 - http://localhost:21262/:id
+
 
 #node
 #javascript
