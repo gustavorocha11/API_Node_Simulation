@@ -23,6 +23,7 @@ routes.post('/add', (req, res) => {
     return res.json(body)
 })
 
+// Deletar Dados Através do ID
 routes.delete('/:id', (req, res) => {
     const id = req.params.id
 
